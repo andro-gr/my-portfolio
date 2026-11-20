@@ -22,6 +22,7 @@
 
                 <script>
                   document.getElementById("age").textContent = new Date().getFullYear() - 2005;
+                  document.getElementById("footer-year").textContent = new Date().getFullYear();
                 </script>
                 <h2 class="regular-text">Role: Web Developer</h2>
                 <h2 class="regular-text">Location: Brazil (open to remote)</h2>
@@ -166,7 +167,7 @@
         <a id="contact-me-ht" href="./public/contact.html" target = "_blank">Contact me</a>
         <br /><br />
         <footer>
-            <p>© 2025 Alejandro Ramirez</p>
+            <p>© <span id="footer-year"></span> Alejandro Ramirez</p>
         </footer>
     </body>
 
