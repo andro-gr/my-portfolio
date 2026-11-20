@@ -19,11 +19,6 @@
             <div class="profile-text">
                 <h2 class="regular-text">Name: Alejandro Gonzalez Ramirez</h2>
                 <h2 class="regular-text">Age: <span id="age"></span></h2>
-
-                <script>
-                  document.getElementById("age").textContent = new Date().getFullYear() - 2005;
-                  document.getElementById("footer-year").textContent = new Date().getFullYear();
-                </script>
                 <h2 class="regular-text">Role: Web Developer</h2>
                 <h2 class="regular-text">Location: Brazil (open to remote)</h2>
                 <h2 class="regular-text">Open to full-time roles or freelance projects.</h2>
@@ -169,6 +164,11 @@
         <footer>
             <h2>© <span id="footer-year"></span> Alejandro Ramirez</h2>
         </footer>
+
+        <script>
+            document.getElementById("age").textContent = new Date().getFullYear() - 2005;
+            document.getElementById("footer-year").textContent = new Date().getFullYear();
+        </script>
     </body>
 
 </html>
