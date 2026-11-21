@@ -36,7 +36,7 @@
 
 body {
     margin: 6rem;
-    background-color: #F2EDD1;
+    background-color: #5B91A3;
     font-family: "Sansation", sans-serif;
 }
 .profile-container {
@@ -63,25 +63,25 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 20%;
-  border: 5px solid #689b8a;
+  border: 5px solid #131B2B;
 }
 
 #title {
-  background-color: #689b8a;
-  color: #000000;
+  background-color: #131B2B;
+  color: #CFEAE0;
   text-align: center;
   font-weight: 900;
   font-size: 3rem;
 }
 
 .regular-text {
-  color: #280A3E;
+  color: #131B2B;
   font-size: 18px;
 }
 
 .head-text {
-  background-color: #689b8a;
-  color: #000000;
+  background-color: #131B2B;
+  color: #CFEAE0;
   margin-right: 750px;
   font-size: 2rem;
   font-weight: 700;
@@ -96,8 +96,8 @@ body {
 }
 
 footer {
-  background-color: #689b8a;
-  color: #000000;
+  background-color: #131B2B;
+  color: #CFEAE0;
   text-align: center;
   position: relative;
   font-size: 1.5rem;
@@ -109,7 +109,7 @@ footer {
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
-  color: #239BA7;
+  color: #280A3E;
 }
 
 #paragraph-1 {
